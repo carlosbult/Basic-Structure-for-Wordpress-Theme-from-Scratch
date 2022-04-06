@@ -1,0 +1,23 @@
+{
+  "name": "basic-structure-for-wordpress-theme-from-scratch",
+  "version": "1.0.0",
+  "description": "Basic Structure for Wordpress Theme from Scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosbult/Basic-Structure-for-Wordpress-Theme-from-Scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosbult/Basic-Structure-for-Wordpress-Theme-from-Scratch/issues"
+  },
+  "homepage": "https://github.com/carlosbult/Basic-Structure-for-Wordpress-Theme-from-Scratch#readme",
+  "devDependencies": {
+    "sass": "^1.49.11"
+  }
+}
