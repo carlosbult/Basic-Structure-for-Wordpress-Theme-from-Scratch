@@ -59,7 +59,7 @@ include_once('helpers/register-sidebar.php');
 function themeName_styles()
 {
     /* Register styles */
-    wp_register_style('themeName-style', get_template_directory_uri() . '/assets/css/style.css', array(), '1.0', 'all');
+    wp_register_style('themeName-style', get_template_directory_uri() . '/assets/css/style.min.css', array(), '1.0', 'all');
     wp_register_style('fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css', array(), '1.0', 'all');
 
     /* Enqueue styles */
