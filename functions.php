@@ -59,7 +59,7 @@ include_once('helpers/register-sidebar.php');
 function themeName_styles()
 {
     /* Register styles */
-    wp_register_style('themeName-style', get_template_directory_uri() . '/assets/css/style.min.css', array(), '1.0', 'all');
+    wp_register_style('themeName-style', get_template_directory_uri() . '/assets/dist/style.min.css', array(), '1.0', 'all');
     wp_register_style('fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css', array(), '1.0', 'all');
 
     /* Enqueue styles */
@@ -88,7 +88,7 @@ add_action('wp_enqueue_scripts', 'themeName_styles');
 function themeName_scripts()
 {
     /* Register scripts */
-    wp_register_script('themeName-script', get_template_directory_uri() . '/assets/js/index.js', array('jquery'), '1.0', true);
+    wp_register_script('themeName-script', get_template_directory_uri() . '/assets/dist/app.js', array('jquery'), '1.0', true);
 
     /* Enqueue scripts */
     wp_enqueue_script('themeName-script');

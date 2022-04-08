@@ -4,23 +4,23 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const localDomain = 'http://localhost/carlos_bult/';
 
 const cssPath = './assets/sass/style.scss';
-const indexJsPath = './assets/js/index.js';
+const indexJsPath = './assets/js/app.js';
 
 module.exports = {
   watch: true,
   entry: {
     style: {
-        import : cssPath,
-        filename: '[name].css',
+      import: cssPath,
+      filename: '[name].css',
     },
     app: {
-        import : indexJsPath,
-        filename: '[name].js',
-    }
+      import: indexJsPath,
+      filename: '[name].js',
+    },
   },
   output: {
     filename: '[name]',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, './assets/dist'),
   },
   module: {
     rules: [
@@ -53,5 +53,3 @@ module.exports = {
     // ),
   ],
 };
-
-

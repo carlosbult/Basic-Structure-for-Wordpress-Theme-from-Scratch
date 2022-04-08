@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./assets/js/index.js":
-/*!****************************!*\
-  !*** ./assets/js/index.js ***!
-  \****************************/
+/***/ "./assets/js/app.js":
+/*!**************************!*\
+  !*** ./assets/js/app.js ***!
+  \**************************/
 /***/ (() => {
 
-eval("console.log('Hello World');\r\n\n\n//# sourceURL=webpack://basic-structure-for-wordpress-theme-from-scratch/./assets/js/index.js?");
+eval("console.log('app.js loaded');\r\n\n\n//# sourceURL=webpack://basic-structure-for-wordpress-theme-from-scratch/./assets/js/app.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("console.log('Hello World');\r\n\n\n//# sourceURL=webpack://basic-structure
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./assets/js/index.js"]();
+/******/ 	__webpack_modules__["./assets/js/app.js"]();
 /******/ 	
 /******/ })()
 ;
