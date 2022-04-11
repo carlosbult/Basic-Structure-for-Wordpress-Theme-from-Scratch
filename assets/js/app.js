@@ -1,1 +1,3 @@
-console.log('app.js loaded');
+const muestra = 'app.js loaded';
+
+console.log(muestra);

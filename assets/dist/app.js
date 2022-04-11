@@ -15,7 +15,7 @@
   \**************************/
 /***/ (() => {
 
-eval("console.log('app.js loaded');\r\n\n\n//# sourceURL=webpack://basic-structure-for-wordpress-theme-from-scratch/./assets/js/app.js?");
+eval("var muestra = 'app.js loaded';\nconsole.log(muestra);\n\n//# sourceURL=webpack://basic-structure-for-wordpress-theme-from-scratch/./assets/js/app.js?");
 
 /***/ })
 
